@@ -1,11 +1,10 @@
 backend:
   name: github
-  repo: anstapibil/obenkarasaka-site # Change this to your GitHub username and repository name
-  branch: main # or master if that is your default branch
+  repo: anstapibil/obenkarasaka-site # Replace with your GitHub username/repo
+  branch: master # Use 'master' if that's your default branch
 
-
-media_folder: "assets/uploads" # Where media files are stored
-public_folder: "/assets/uploads" # URL path to uploaded media
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
 
 collections:
   - name: "posts"
